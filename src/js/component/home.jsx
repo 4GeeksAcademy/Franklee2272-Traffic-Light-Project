@@ -19,6 +19,7 @@ export function Home() {
 	};
 	
 	const handleBlinkClick = () => {
+		setSelectedColor("green3");
 		setIsBlinking(true);
 	};
 	
